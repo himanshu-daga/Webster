@@ -12,7 +12,7 @@ Contributing here is easy, you just need to have basics of HTML and CSS and you 
 
 ## Contribution guidelines
 Enter your content in following format:  
-'''html  
+```html  
 <!DOCTYPE html>  
 <html>  
 	<heaad>  
@@ -27,7 +27,7 @@ Enter your content in following format:
     //enter your html snippet here   
 	</body>  
 </html>  
-'''  
+```  
 And add a image of your working code snippet.  
 
 ## License
