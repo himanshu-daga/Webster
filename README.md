@@ -11,10 +11,12 @@ Especially for beginners, it will be a great way to learn contributing in a comm
 Contributing here is easy, you just need to have basics of HTML and CSS and you are ready to go!  
 
 ## Contribution guidelines
+It is simple. Just make something like sample1 directory in forms.
+Refer following points 
 1. Browse the element you want to add in **html elements**.  
-2. If your element already exist then create new file in that repo  
-   else make a new repo with name of the element such as form, img etc. and create a new file in it.  
-3. Give file name as sample(n).html like sample1.html, sample2.html, etc.  
+2. If your element already exists(like forms) then create new directory in that repo with sample1, sample2 ,... 
+   else make a new repo with name of the element such as img, header, navbar, footer etc. and create a new directory with sample1 name in it.  
+3. Now add your files in it.  
 4. Enter your content in following format in the file:  
 ```html  
 <!DOCTYPE html>  
@@ -32,7 +34,7 @@ Contributing here is easy, you just need to have basics of HTML and CSS and you 
 	</body>  
 </html>  
 ```  
-5. Now add a screenshot of this code in browser by- save and open your html file in a browser, take it's screenshot, and add the screenshot in the same repo by name img(n).jpeg/png like if your file name is sample1.html then your image name is img1.png etc.
+5. Now add a screenshot of your html page in browser.
 6. Now create a pull request and it's done!
 
 ## License
