@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Hyperlink</title>
+        <link rel="stylesheet" type="text/css" href="links.css">
+    </head>
+    <body>
+        <h4>Introduction</h4>
+        <p>Hyperlinks commonly follow the syntax</p>
+        <code>&lt;a href="Link_url"&gt;Text&lt;/a&gt;</code>
+        <p>For example:</p>
+        <code>&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;</code>
+        <p>is rendered like this: <a href="https://www.google.com" target="_blank">Google</a></p>
+
+        <br>
+
+        <h4>Styling</h4>
+        <p>By default a link is underlined</p>
+        <p>An unvisited link is <span class="blue">blue</span></p>
+        <p>A visited link is <span class="purple">purple</span></p>
+        <p>An active link is <span class="red">red</span></p>
+
+        <br>
+        
+        <h4>Attributes</h4>
+        <p>The target attribute specifies where to open the link.</p>
+        <ul>
+            <li><em>_blank</em> opens in a new window or tab</li>
+            <li><em>_self</em> opens in same window or tab</li>
+            <li><em>_parent</em> opens in the parent frame</li>
+            <li><em>_top</em> opens in the full window</li>           
+        </ul>
+
+        <br>
+
+        <h4>Paths</h4>
+        <p>The example above links to an external site, should you need to link to another page on your site, you use the file path.  For example:</p>
+        <code>&lt;a href="/html/about_me.html"&gt;About Me&lt;/a&gt;</code>
+        <p>will link to the about_me.html file in the html folder</p>
+        <p>To link to another part of the same page, create an element with an id</p>
+        <code>&lt;section id="projects"&gt;</code>
+        <p>and then you can create the link like this:</p>
+        <code>&lt;a href="#projects&gt;</code>
+    </body>
+</html>
