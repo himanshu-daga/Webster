@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Nav</title>
+  <style>
+    *,
+    ::after,
+    ::before {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .wrapper {
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .nav__ul {
+      display: flex;
+      flex-flow: row wrap;
+      margin-top: 0;
+      padding-left: 0;
+      list-style-type: none;
+    }
+
+    .nav__li {
+      flex-basis: 50%;
+    }
+
+    .nav__a {
+      display: block;
+      padding: 1rem;
+      background-color: palevioletred;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .nav__a:hover {
+      opacity: 0.75;
+    }
+
+    @media (min-width: 360px) {
+      .nav__li {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <ul class="nav__ul">
+        <li class="nav__li"><a href="#" class="nav__a">Home</a></li>
+        <li class="nav__li"><a href="#" class="nav__a">Blog</a></li>
+        <li class="nav__li"><a href="#" class="nav__a">About</a></li>
+        <li class="nav__li"><a href="#" class="nav__a">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</body>
+
+</html>
