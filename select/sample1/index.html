@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Select Element</title>
+</head>
+
+<body>
+	<div style="display: flex; flex-direction: column; margin:10px;">
+		<div style="margin:10px;">
+			<label for="select1">Select with options</label>
+			<select id="select1" style="width:20em;">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="mercedes">Mercedes</option>
+				<option value="audi">Audi</option>
+			</select>
+		</div>
+		<div style="margin:10px;">
+			(*Not supported by Internet Explorer)
+			<br/>
+			<label for="select2">Select with datalist </label>
+			<input id="select2" list="browsers" style="width:20em;">
+			<datalist id="browsers">
+				<option value="Internet Explorer">
+				<option value="Firefox">
+				<option value="Chrome">
+				<option value="Opera">
+				<option value="Safari">
+			</datalist>
+		</div>
+	</div>
+</body>
+
+</html>

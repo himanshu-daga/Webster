@@ -1,0 +1,51 @@
+body{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -1px 1px 16px -2px rgba(0,0,0,0.75);
+  align-items: center;
+  width: 300px;
+  margin: 50px auto;
+  height: 250px !important;
+}
+button {
+  width: 100px;
+  margin: 10px auto;
+  color: #3B3738 !important;
+  outline: none;
+  border-radius: 20px;
+  background-color: #7E8F7C;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+  
+  
+}
+
+
+#signInContainer {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  
+}
+
+input {
+  margin-bottom: 9px;
+}
+
+h2, input, label, button {
+  color: #3B3738;
+}
+
+button:hover {
+  background-color: #C63D0F;
+  color: #FDF3E7;
+  outline: none;
+  border: 1px solid #3B3738 ;
+  border-radius: 20px;
+}

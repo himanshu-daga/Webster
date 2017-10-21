@@ -1,14 +1,20 @@
 <!DOCTYPE html>  
 <html>  
 	<head>  
-		<title> TEST </title>  
-		//if using external style sheet then use following:  
-		//<link rel="stylesheet" type="text/css" href="https://abc.com/style/sample.css">  
-		<style>  
-    			//enter your css here   
-		</style>  
+		<title> Registration Form </title>  
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>  
 	<body>  
-    		//enter your html snippet here   
+    		<form class="register">
+		    <div class="register-switch">
+		    	<input type="radio" name="sex" value="F" id="sex_f" class="register-switch-input" checked>
+		     	<label for="sex_f" class="register-switch-label">Female</label>
+		      	<input type="radio" name="sex" value="M" id="sex_m" class="register-switch-input">
+		      	<label for="sex_m" class="register-switch-label">Male</label>
+		    </div>
+		    <input type="email" class="register-input" placeholder="Email address">
+		    <input type="password" class="register-input" placeholder="Password">
+		    <input type="submit" value="Create Account" class="register-button">
+		</form>
 	</body>  
 </html> 

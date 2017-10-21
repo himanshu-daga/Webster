@@ -1,0 +1,62 @@
+.button-primary {
+  font-size: 18px;
+  background-color: #4967ED;
+  border: none;
+  border-radius: 3px 3px 3px;
+  height: 30px;
+  margin: auto;
+  padding: 2px 6px 6px 6px;
+  cursor:pointer;
+}
+.button-primary:active {
+  box-shadow:-1px 3px 9px 0px #4164a5;
+}
+
+.button-danger {
+  font-size: 18px;
+  border-radius: 3px 3px 3px;
+  height: 30px;
+  margin: auto;
+  background-color: #cc0017;
+  border: none;
+  cursor:pointer; 
+}
+.button-danger:active {
+  box-shadow:-1px 3px 9px 0px #9A0213;
+}
+
+.button-warning {
+  font-size: 18px;
+  border-radius: 3px 3px 3px;
+  height: 30px;
+  margin: auto;
+  background-color: #CDA007;
+  border: none;
+  cursor:pointer; 
+}
+.button-warning:active {
+  box-shadow:-1px 3px 9px 0px #886C05;
+}
+
+.button-confirm {
+  font-size: 18px;
+  border-radius: 3px 3px 3px;
+  height: 30px;
+  margin: auto;
+  background-color: #1AAD03;
+  border: none;
+  cursor:pointer; 
+}
+.button-confirm:active {
+  box-shadow:-1px 3px 9px 0px #137B02;
+}
+
+button:focus {
+  outline: none; }
+
+button:hover {
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  /*line-height: 16px;
+  font-size: 16px;*/ }
