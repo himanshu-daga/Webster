@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<HTML>
+<head>
+<style>
+  blockquote{
+    max-width: 550px;
+text-align: center;
+margin: 20px;
+    padding: 20px;
+background: #C1C0C0;
+    border-radius:10px;
+}
+  
+  .quotationMark-left{
+    font-size:100px;
+    text-align:left;
+    margin:0;
+  }
+  
+  .quotationMark-right{
+    font-size:100px;
+    text-align:right;
+    margin:0px;
+  }
+  
+  .quotable{
+    color:#FA0FB3;
+    font-size:80px;
+    font-family:Bebas Neue;
+    margin:5px;
+    text-shadow: 2px 22px 4px #9F9F9F;
+  }
+  
+  hr{
+   border:3px solid #6A6969;
+    margin:0;
+  }
+  
+  h2 {
+    font-family:Arial;
+    text-transform:uppercase;
+    letter-spacing:3px;
+  }
+</style>
+</head>
+
+<body>
+<blockquote>
+  <p class="quotationMark-left">&ldquo;</p> 
+  <p class="quotable">She conquered her demons and wore her scars like wings.</p>
+  <p class="quotationMark-right">&rdquo;</p>
+  <hr>
+  <h2>Atticus</h2>
+</blockquote>
+</body>
+</html>
