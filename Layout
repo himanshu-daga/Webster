@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <style>
+  
+    .container{
+      width:100%;
+        background:#D0FCE8;
+    }
+    
+    .navigation-bar{
+      width:100%;
+      height:80px;
+      background:#00805D;
+    }
+
+    .logo{
+      font-family:Arial;
+      color:#FEA101;
+      display:inline-block;
+      width:25%;
+      height:80px;
+      margin-right:15px;
+      margin-left:15px;
+      font-size:40px;
+      margin:20px;
+    }
+    
+    .navLinks {
+      display:inline-block;
+      vertical-align:middle;
+     float:right;
+      height:80px;
+      font-family:Arial;
+      font-size:27px;
+     padding-left:15px;
+      padding-right:25px;
+    margin-bottom:10px;
+    }
+    
+    a{
+      text-decoration:none;
+      color:#D0FCE8;
+     padding-left:15px;
+      padding-right:15px;
+    }
+    
+    a:hover{
+      color:#FEA101;
+    }
+    
+    ul{
+     list-style-type:none;
+    }
+    
+    li{
+      float:left;
+    }
+    
+    .blog{
+     float: left;
+            width: 79%;
+            min-height: 170px;
+      margin:3px;
+    }
+    
+    .sidebar{
+    float: left; 
+            width: 19%; 
+            min-height: 170px;
+      margin:3px;
+    }
+    
+    .clearFix{
+      clear:both;
+    }
+    
+    h2{
+      font-family:Arial;
+      text-align:center;
+    }
+    
+    hr{
+      border:3px solid #FEA101;
+    }
+    
+    footer{
+      padding:20px;
+    }
+  </style>
+  
+</head>
+<body>
+  <div class="container">    
+    <nav class="navigation-bar">
+      <h1 class="logo">LOGO HERE</h1>
+      
+      <ul class="navLinks">
+        <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+     <li> <a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <div class="blog"><h2>BLOG</h2></div>
+    
+    <div class="sidebar"><h2>SIDEBAR</h2></div>
+    
+    <div class="clearFix"></div>
+    
+    <hr>
+      
+    <footer><h2>FOOTER</h2></footer>
+      </div>
+      </body>
+      </HTML>
