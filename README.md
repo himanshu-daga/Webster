@@ -3,12 +3,12 @@ A complete reference for all html elements with css for them.
 
 ## Synopsis
 
-**Webster** is your personal collection of every html element, with various css styles for it. These pieces of codes would be very helpful while making any website, editing a template,developing your own website from scratch or any other frontend related work as, these can be directly used by you or anyone else in your code.
+**Webster** is your personal collection of every html element, with various css styles for it. These pieces of codes would be very helpful while making any website, editing a template,developing your own website from scratch or any other frontend related work on your website, these can be directly used by you or anyone else in your code.
 
 ## Motivation
 The code snippets from here can be directly used by anyone.  
-Especially for beginners, it will be a great way to learn contributing in a community.  
-Contributing here is easy, you just need to have basics of HTML and CSS and you are ready to go!  
+Especially for beginners, it will be a very good way to learn contributing in a community.  
+Contributing here is easy, you just need to have basics of HTML and CSS and you are ready to go!!!!!! 
 
 ## Contribution guidelines
 It is simple. Just make something like sample1 directory in forms.
@@ -35,7 +35,7 @@ Refer following points
 </html>  
 ```  
 5. Now add a screenshot of your html page in browser.
-6. Now create a pull request and it's done!
+6. Now create a pull request and it's done!!! That simple..
 
 ## License
 
