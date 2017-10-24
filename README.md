@@ -35,7 +35,7 @@ Refer following points
 </html>  
 ```  
 5. Now add a screenshot of your html page in browser.
-6. Now create a pull request and it's done!!! That simple..
+6. Now create a pull request and it's done!!!
 
 ## License
 
