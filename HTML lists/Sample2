@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<HTML>
+<head>
+<style>
+  h1{
+    color:#000;
+    font-family:Arial;
+    text-align:center;
+    padding:10px 0;
+  }
+  
+  ul li {
+    font-size:22px;
+    font-family:Arial;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:grey;
+    padding:5px 0;
+    text-align:center;
+  }
+  
+  .container{
+    background:#dfdfdf;
+    width:50%;;
+    height:25%;
+    padding:10px;
+}
+  
+  .titleBackground{
+    background:#908F8F;
+    padding:5px 0;
+  }
+  
+  ul{
+   padding:10px 0;
+  }
+  
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="titleBackground">
+  <h1>Title Here</h1>
+</div>
+
+<ul style="list-style-type:none">
+  <li>banana</li>
+  <li>pineapple</li>
+  <li>carrots</li>
+</ul>
+</div>
+</body>
+</html>
