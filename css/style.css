@@ -11,12 +11,13 @@ header ul {
     padding: 0;
     overflow: hidden;
     border: 1px solid #27333f;
-    box-shadow: 0px 0px 5px #aaaaaa;
+    box-shadow: 0px 0px 15px #aaaaaa;
     background-color: #293541;
+    z-index: 2;
 }
 
 header li {
-    float: right;
+    float: center;
 }
 
 header li.logo {
