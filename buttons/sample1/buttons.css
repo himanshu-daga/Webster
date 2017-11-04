@@ -60,3 +60,17 @@ button:hover {
   -ms-transform: scale(1.03);
   /*line-height: 16px;
   font-size: 16px;*/ }
+
+.button-info{
+    font-size: 18px;
+    border-radius: 3px 3px 3px;
+    height: 30px;
+    margin: auto;
+    background-color: #3AA7DA;
+    border: none;
+    cursor: pointer;
+}
+
+.button-info:active{
+      box-shadow:-1px 3px 9px 0px #3AA7DA;
+}
