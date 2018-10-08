@@ -1,0 +1,92 @@
+/******
+* Author: Louie Rosero
+* File: style.css
+* Github: https://github.com/louierosero
+******/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: #333;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 150px 0 100px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+a {
+  display: inline-block;
+  padding: 20px 0;
+  background: orange;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  /* transition: all .2s linear; */
+  border: none;
+}
+
+a:active {
+  margin-top: 10px;
+}
+
+a.violet {
+  background: #9400D3;
+  border-bottom: 10px solid #7300a5;
+}
+
+a.indigo {
+  background: #4B0082;
+  border-bottom: 10px solid #3f006d;
+}
+
+a.blue {
+  background: #0000FF;
+  border-bottom: 10px solid #0101ea;
+}
+
+a.green {
+  background: #00FF00;
+  border-bottom: 10px solid #00e000;
+}
+
+a.yellow {
+  background: #e8e800;
+  border-bottom: 10px solid #d0d000;
+}
+
+a.orange {
+  background: #FF7F00;
+  border-bottom: 10px solid #d66c02;
+}
+
+a.red {
+  background: #FF0000;
+  border-bottom: 10px solid #ce0101;
+}
+
+a.violet:active,
+a.indigo:active,
+a.blue:active,
+a.green:active,
+a.yellow:active,
+a.orange:active,
+a.red:active {
+  border: none
+}
