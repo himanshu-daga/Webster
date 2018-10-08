@@ -43,3 +43,32 @@ header li a.active {
     color: white;
     background-color: #008CBA;
 }
+
+h1{
+        text-align: center;
+ }
+ footer{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #22A7F0;
+  text-align: center;
+  bottom:0;
+  position: fixed;
+  width: 100%;
+ }
+ footer i{
+  margin-right: 30px;
+ }
+ footer a {
+  color: white;
+  font-size: 35px;
+  -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+footer a:hover {
+  color: #ffb6c1;
+  font-size: 45px;
+}
+
