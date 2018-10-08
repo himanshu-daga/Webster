@@ -4,6 +4,8 @@
 	<heaad>
 		<title> Webster </title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
 	</head>
 	
 	<body>
@@ -13,9 +15,57 @@
 			</ul>
 		</header>
 
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="#">About</a>
+		    <ul>
+		      <a href="#">A1</a>
+		      <a href="#">A2</a>
+		      <a href="#">A3</a>
+		    </ul>
+		  <a href="#">Services</a>
+		    <ul>
+		      <a href="#">S1</a>
+		      <a href="#">S2</a>
+		    </ul>
+		  <a href="#">Clients</a>
+		    <ul>
+		      <a href="#">C1</a>
+		      <a href="#">C2</a>
+		    </ul>
+		  <a href="#">Contact</a>
+		</div>
+
+		<div id="main">
+		  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+		</div>
+
+		<footer>
+		  <a href="#"><i class="fa fa-twitter"></i></a>
+		  <a href="#"><i class="fa fa-facebook-square"></i></a>
+		  <a href="#"><i class="fa fa-github"></i></a>
+		  <a href="#"><i class="fa fa-linkedin"></i></a>
+		  <a href="#"><i class="fa fa-pinterest"></i></a>
+		  <a href="#"><i class="fa fa-angellist"></i></a>
+		</footer>
+
 <!-- 		<div>
 			<a href="form/"> <input type="button" name="form" value="FORMS">
 		</div> -->
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
 
 	</body>
 </html>
