@@ -1,0 +1,37 @@
+body{
+    font-family:sans-serif;
+}
+h1{
+    text-align:center;letter-spacing:10px;
+}
+body{
+    background-color:rgba(128, 128, 128, 0.055);
+}
+.button{
+    margin-left:35%;
+}
+button{
+    padding:10px;
+    font-family:sans-serif;background:transparent;
+    border:none;
+    text-transform: uppercase;
+    font-weight:bolder;
+    margin:15px;
+}
+button:hover{
+    color:white;
+    border-radius:6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.red:hover{
+    background-color:red;
+}
+.green:hover{
+    background-color:green;
+}
+.blue:hover{
+    background-color:blue;
+}
+.violet:hover{
+    background-color: violet;
+}
